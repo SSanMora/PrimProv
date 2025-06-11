@@ -1,24 +1,54 @@
-#include "Leccion.h"
+#include "Docente.h"
 #include <iostream>
 
 using namespace std;
 
-Leccion::Leccion(const string& tema, int duracion)
-    : temaDeLaLeccion(tema), duracionEnMinutos(duracion) {
-    /* constructor que inicializa el tema y la duración de la lección */
+Docente::Docente(const string& nombre, const string& correo)
+    : Usuario(nombre, correo) {}
+    /* constructor que inicializa el nombre de usuario y el correo electrónico */
+
+Docente::~Docente() {
+    /* destructor para liberar memoria de los cursos publicados */
+    for (Curso* curso : cursosPublicados) {
+        delete curso; // liberar memoria de cada curso
+    }
 }
 
-string Leccion::getTemaDeLaLeccion() const {
-    /* método para obtener el tema de la lección */
-    return this -> temaDeLaLeccion;
+void Docente::publicarUnNuevoCurso(Curso* curso) {
+    cursosPublicados.push_back(curso);
+    /* método para publicar un curso */
+    cout << "Curso '" << curso->getTituloDelCurso() << "' publicado por " << getNombreDeUsuario() << "." << endl;
 }
 
-int Leccion::getDuracionEnMinutos() const {
-    /* método para obtener la duración de la lección */
-    return this -> duracionEnMinutos;
+void Docente::agregarUnaLeccionParaUnCurso(const string& tituloCurso, Leccion* leccion) {
+    for (Curso* curso : cursosPublicados) {
+        if (curso->getTituloDelCurso() == tituloCurso) {
+            curso->agregarLeccion(leccion);
+            cout << "Lección '" << leccion->getTemaDeLaLeccion() << "' agregada al curso '" << tituloCurso << "'." << endl;
+            return;
+        }
+    }
+    cout << "Curso '" << tituloCurso << "' no encontrado." << endl;
 }
-void Leccion::mostrarInformacion() const {
-    /* método para mostrar la información de la lección */
-    cout << "Tema de la lección: " << temaDeLaLeccion << endl;
-    cout << "Duración (minutos): " << duracionEnMinutos << endl;
+
+void Docente::eliminarUnaLeccionDeUnCurso(const string& tituloCurso, const string& temaLeccion) {
+    for (Curso* curso : cursosPublicados) {
+        if (curso->getTituloDelCurso() == tituloCurso) {
+            curso->eliminarLeccion(temaLeccion);
+            return;
+        }
+    }
+    cout << "Curso '" << tituloCurso << "' no encontrado." << endl;
+}
+
+void Docente::mostrarTodosLosCursosPublicados() const {
+    cout << "Cursos publicados por " << getNombreDeUsuario() << ":" << endl;
+    for (Curso* curso : cursosPublicados) {
+        cout << "- " << curso->getTituloDelCurso() << ": " << curso->getDescripcionDelCurso() << endl;
+    }
+}
+
+void Docente::login() const {
+    cout << "Docente " << getNombreDeUsuario() << " ha iniciado sesión." << endl;
+    /* método que implementa la funcionalidad de login para el docente */
 }

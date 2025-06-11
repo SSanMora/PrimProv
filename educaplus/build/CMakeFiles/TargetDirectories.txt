@@ -1,2 +1,3 @@
 /workspaces/PrimProv/educaplus/build/CMakeFiles/rebuild_cache.dir
 /workspaces/PrimProv/educaplus/build/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/educaplus/build/CMakeFiles/educaplus.dir

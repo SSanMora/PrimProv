@@ -110,6 +110,181 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named educaplus
+
+# Build rule for target.
+educaplus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 educaplus
+.PHONY : educaplus
+
+# fast build rule for target.
+educaplus/fast:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/build
+.PHONY : educaplus/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+src/Alumno.o: src/Alumno.cpp.o
+
+.PHONY : src/Alumno.o
+
+# target to build an object file
+src/Alumno.cpp.o:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Alumno.cpp.o
+.PHONY : src/Alumno.cpp.o
+
+src/Alumno.i: src/Alumno.cpp.i
+
+.PHONY : src/Alumno.i
+
+# target to preprocess a source file
+src/Alumno.cpp.i:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Alumno.cpp.i
+.PHONY : src/Alumno.cpp.i
+
+src/Alumno.s: src/Alumno.cpp.s
+
+.PHONY : src/Alumno.s
+
+# target to generate assembly for a file
+src/Alumno.cpp.s:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Alumno.cpp.s
+.PHONY : src/Alumno.cpp.s
+
+src/Curso.o: src/Curso.cpp.o
+
+.PHONY : src/Curso.o
+
+# target to build an object file
+src/Curso.cpp.o:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Curso.cpp.o
+.PHONY : src/Curso.cpp.o
+
+src/Curso.i: src/Curso.cpp.i
+
+.PHONY : src/Curso.i
+
+# target to preprocess a source file
+src/Curso.cpp.i:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Curso.cpp.i
+.PHONY : src/Curso.cpp.i
+
+src/Curso.s: src/Curso.cpp.s
+
+.PHONY : src/Curso.s
+
+# target to generate assembly for a file
+src/Curso.cpp.s:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Curso.cpp.s
+.PHONY : src/Curso.cpp.s
+
+src/Docente.o: src/Docente.cpp.o
+
+.PHONY : src/Docente.o
+
+# target to build an object file
+src/Docente.cpp.o:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Docente.cpp.o
+.PHONY : src/Docente.cpp.o
+
+src/Docente.i: src/Docente.cpp.i
+
+.PHONY : src/Docente.i
+
+# target to preprocess a source file
+src/Docente.cpp.i:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Docente.cpp.i
+.PHONY : src/Docente.cpp.i
+
+src/Docente.s: src/Docente.cpp.s
+
+.PHONY : src/Docente.s
+
+# target to generate assembly for a file
+src/Docente.cpp.s:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Docente.cpp.s
+.PHONY : src/Docente.cpp.s
+
+src/Leccion.o: src/Leccion.cpp.o
+
+.PHONY : src/Leccion.o
+
+# target to build an object file
+src/Leccion.cpp.o:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Leccion.cpp.o
+.PHONY : src/Leccion.cpp.o
+
+src/Leccion.i: src/Leccion.cpp.i
+
+.PHONY : src/Leccion.i
+
+# target to preprocess a source file
+src/Leccion.cpp.i:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Leccion.cpp.i
+.PHONY : src/Leccion.cpp.i
+
+src/Leccion.s: src/Leccion.cpp.s
+
+.PHONY : src/Leccion.s
+
+# target to generate assembly for a file
+src/Leccion.cpp.s:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Leccion.cpp.s
+.PHONY : src/Leccion.cpp.s
+
+src/Usuario.o: src/Usuario.cpp.o
+
+.PHONY : src/Usuario.o
+
+# target to build an object file
+src/Usuario.cpp.o:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Usuario.cpp.o
+.PHONY : src/Usuario.cpp.o
+
+src/Usuario.i: src/Usuario.cpp.i
+
+.PHONY : src/Usuario.i
+
+# target to preprocess a source file
+src/Usuario.cpp.i:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Usuario.cpp.i
+.PHONY : src/Usuario.cpp.i
+
+src/Usuario.s: src/Usuario.cpp.s
+
+.PHONY : src/Usuario.s
+
+# target to generate assembly for a file
+src/Usuario.cpp.s:
+	$(MAKE) -f CMakeFiles/educaplus.dir/build.make CMakeFiles/educaplus.dir/src/Usuario.cpp.s
+.PHONY : src/Usuario.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +293,25 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... educaplus"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... src/Alumno.o"
+	@echo "... src/Alumno.i"
+	@echo "... src/Alumno.s"
+	@echo "... src/Curso.o"
+	@echo "... src/Curso.i"
+	@echo "... src/Curso.s"
+	@echo "... src/Docente.o"
+	@echo "... src/Docente.i"
+	@echo "... src/Docente.s"
+	@echo "... src/Leccion.o"
+	@echo "... src/Leccion.i"
+	@echo "... src/Leccion.s"
+	@echo "... src/Usuario.o"
+	@echo "... src/Usuario.i"
+	@echo "... src/Usuario.s"
 .PHONY : help
 
 

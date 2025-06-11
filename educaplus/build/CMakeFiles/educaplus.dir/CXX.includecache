@@ -13,50 +13,72 @@ Curso.h
 ../include/Curso.h
 vector
 -
+string
+-
 
 ../include/Curso.h
-Leccion.h
-../include/Leccion.h
+string
+-
 vector
 -
-iostream
--
+Leccion.h
+../include/Leccion.h
 
 ../include/Docente.h
 Usuario.h
 ../include/Usuario.h
 Curso.h
 ../include/Curso.h
+Leccion.h
+../include/Leccion.h
 vector
 -
 
 ../include/Leccion.h
 string
 -
-iostream
--
 
 ../include/Usuario.h
 string
 -
+vector
+-
 
 /workspaces/PrimProv/educaplus/main.cpp
+iostream
+-
+vector
+-
 Alumno.h
 /workspaces/PrimProv/educaplus/Alumno.h
 Docente.h
 /workspaces/PrimProv/educaplus/Docente.h
-iostream
--
+Curso.h
+/workspaces/PrimProv/educaplus/Curso.h
+Leccion.h
+/workspaces/PrimProv/educaplus/Leccion.h
 
 /workspaces/PrimProv/educaplus/src/Alumno.cpp
+Usuario.h
+/workspaces/PrimProv/educaplus/src/Usuario.h
 Alumno.h
 /workspaces/PrimProv/educaplus/src/Alumno.h
+Curso.h
+/workspaces/PrimProv/educaplus/src/Curso.h
+vector
+-
+string
+-
 iostream
 -
 
 /workspaces/PrimProv/educaplus/src/Curso.cpp
 Curso.h
 /workspaces/PrimProv/educaplus/src/Curso.h
+Leccion.h
+/workspaces/PrimProv/educaplus/src/Leccion.h
+iostream
+-
 
 /workspaces/PrimProv/educaplus/src/Docente.cpp
 Docente.h
@@ -67,8 +89,12 @@ iostream
 /workspaces/PrimProv/educaplus/src/Leccion.cpp
 Leccion.h
 /workspaces/PrimProv/educaplus/src/Leccion.h
+iostream
+-
 
 /workspaces/PrimProv/educaplus/src/Usuario.cpp
 Usuario.h
 /workspaces/PrimProv/educaplus/src/Usuario.h
+iostream
+-
 
