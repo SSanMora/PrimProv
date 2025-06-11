@@ -39,5 +39,18 @@
         "miDebuggerPath": "/usr/bin/gdb",
         "preLaunchTask": "Build Archivos51",
       },
+
+      {
+        "name": "Debug Educaplus",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/bin/punteros",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+        "preLaunchTask": "Build Educaplus",
+      }
     ]
   }

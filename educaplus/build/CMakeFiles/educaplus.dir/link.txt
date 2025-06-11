@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/educaplus.dir/main.cpp.o CMakeFiles/educaplus.dir/src/Alumno.cpp.o CMakeFiles/educaplus.dir/src/Curso.cpp.o CMakeFiles/educaplus.dir/src/Docente.cpp.o CMakeFiles/educaplus.dir/src/Leccion.cpp.o CMakeFiles/educaplus.dir/src/Usuario.cpp.o  -o educaplus 

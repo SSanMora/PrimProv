@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspaces/PrimProv/educaplus/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/educaplus/include  -g   -o CMakeFiles/educaplus.dir/main.cpp.o -c /workspaces/PrimProv/educaplus/main.cpp",
+  "file": "/workspaces/PrimProv/educaplus/main.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/educaplus/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/educaplus/include  -g   -o CMakeFiles/educaplus.dir/src/Alumno.cpp.o -c /workspaces/PrimProv/educaplus/src/Alumno.cpp",
+  "file": "/workspaces/PrimProv/educaplus/src/Alumno.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/educaplus/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/educaplus/include  -g   -o CMakeFiles/educaplus.dir/src/Curso.cpp.o -c /workspaces/PrimProv/educaplus/src/Curso.cpp",
+  "file": "/workspaces/PrimProv/educaplus/src/Curso.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/educaplus/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/educaplus/include  -g   -o CMakeFiles/educaplus.dir/src/Docente.cpp.o -c /workspaces/PrimProv/educaplus/src/Docente.cpp",
+  "file": "/workspaces/PrimProv/educaplus/src/Docente.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/educaplus/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/educaplus/include  -g   -o CMakeFiles/educaplus.dir/src/Leccion.cpp.o -c /workspaces/PrimProv/educaplus/src/Leccion.cpp",
+  "file": "/workspaces/PrimProv/educaplus/src/Leccion.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/educaplus/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/educaplus/include  -g   -o CMakeFiles/educaplus.dir/src/Usuario.cpp.o -c /workspaces/PrimProv/educaplus/src/Usuario.cpp",
+  "file": "/workspaces/PrimProv/educaplus/src/Usuario.cpp"
+}
+]

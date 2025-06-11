@@ -6,6 +6,8 @@
       // {por cada proyecto}
       { "name": "Archivos51",   "path": "archivos51" },
       // {por cada proyecto}
+      { "name": "Educaplus",   "path": "educaplus" }
+      // {por cada proyecto}
     ],
     "settings": {
       // para que CMake Tools busque en la raíz

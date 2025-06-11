@@ -59,5 +59,29 @@
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
     },
+    /// uno por cada proyecto/carpeta
+    {
+      "label": "CMake: Configure",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S", "${workspaceFolder}",
+        "-B", "${workspaceFolder}/build"
+      ],
+      "group": "build"
+    },
+    
+    {
+      "label": "Build Educaplus",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/build",
+        "--target", "educaplus"
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "dependsOn": "CMake: Configure"
+    }
   ]
 }
