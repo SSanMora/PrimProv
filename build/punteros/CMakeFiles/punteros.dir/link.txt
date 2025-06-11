@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/punteros.dir/main.cpp.o CMakeFiles/punteros.dir/src/Cuenta.cpp.o CMakeFiles/punteros.dir/src/Persona.cpp.o  -o ../bin/punteros 

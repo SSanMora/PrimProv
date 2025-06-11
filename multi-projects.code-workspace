@@ -1,0 +1,20 @@
+{
+    "folders": [
+      { "name": "Intersedes",   "path": "intersedes" },
+      // {por cada proyecto}
+      { "name": "Punteros",   "path": "punteros" },
+      // {por cada proyecto}
+      { "name": "Archivos51",   "path": "archivos51" },
+      // {por cada proyecto}
+    ],
+    "settings": {
+      // para que CMake Tools busque en la raíz
+      "cmake.sourceDirectory": "${workspaceFolder}"
+    },
+    "extensions": {
+      "recommendations": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  }

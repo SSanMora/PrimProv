@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/intersedes.dir/main.cpp.o CMakeFiles/intersedes.dir/src/Basketbolista.cpp.o CMakeFiles/intersedes.dir/src/Deportista.cpp.o CMakeFiles/intersedes.dir/src/Futbolista.cpp.o CMakeFiles/intersedes.dir/src/Nadador.cpp.o  -o ../bin/intersedes 

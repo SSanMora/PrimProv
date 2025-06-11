@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Deportista.h
+iostream
+-
+string
+-
+
+../include/Nadador.h
+string
+-
+Deportista.h
+../include/Deportista.h
+
+/workspaces/PrimProv/intersedes/src/Nadador.cpp
+Nadador.h
+/workspaces/PrimProv/intersedes/src/Nadador.h
+

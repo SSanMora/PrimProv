@@ -1,0 +1,3 @@
+/workspaces/PrimProv/intersedes/build/CMakeFiles/rebuild_cache.dir
+/workspaces/PrimProv/intersedes/build/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/intersedes/build/CMakeFiles/intersedes.dir

@@ -1,0 +1,3 @@
+/workspaces/PrimProv/archivos51/build/CMakeFiles/rebuild_cache.dir
+/workspaces/PrimProv/archivos51/build/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/archivos51/build/CMakeFiles/archivos51.dir

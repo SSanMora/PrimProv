@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Cuenta.h
+string
+-
+
+/workspaces/PrimProv/punteros/src/Cuenta.cpp
+Cuenta.h
+/workspaces/PrimProv/punteros/src/Cuenta.h
+
+/workspaces/PrimProv/punteros/src/Persona.cpp
+

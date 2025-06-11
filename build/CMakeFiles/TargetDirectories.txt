@@ -1,0 +1,11 @@
+/workspaces/PrimProv/build/CMakeFiles/rebuild_cache.dir
+/workspaces/PrimProv/build/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/build/intersedes/CMakeFiles/rebuild_cache.dir
+/workspaces/PrimProv/build/intersedes/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/build/intersedes/CMakeFiles/intersedes.dir
+/workspaces/PrimProv/build/punteros/CMakeFiles/rebuild_cache.dir
+/workspaces/PrimProv/build/punteros/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/build/punteros/CMakeFiles/punteros.dir
+/workspaces/PrimProv/build/archivos51/CMakeFiles/rebuild_cache.dir
+/workspaces/PrimProv/build/archivos51/CMakeFiles/edit_cache.dir
+/workspaces/PrimProv/build/archivos51/CMakeFiles/archivos51.dir

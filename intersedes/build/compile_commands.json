@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/workspaces/PrimProv/intersedes/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/main.cpp.o -c /workspaces/PrimProv/intersedes/main.cpp",
+  "file": "/workspaces/PrimProv/intersedes/main.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/intersedes/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Basketbolista.cpp.o -c /workspaces/PrimProv/intersedes/src/Basketbolista.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Basketbolista.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/intersedes/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Deportista.cpp.o -c /workspaces/PrimProv/intersedes/src/Deportista.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Deportista.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/intersedes/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Futbolista.cpp.o -c /workspaces/PrimProv/intersedes/src/Futbolista.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Futbolista.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/intersedes/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Nadador.cpp.o -c /workspaces/PrimProv/intersedes/src/Nadador.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Nadador.cpp"
+}
+]

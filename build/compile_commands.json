@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/workspaces/PrimProv/build/intersedes",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/main.cpp.o -c /workspaces/PrimProv/intersedes/main.cpp",
+  "file": "/workspaces/PrimProv/intersedes/main.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/intersedes",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Basketbolista.cpp.o -c /workspaces/PrimProv/intersedes/src/Basketbolista.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Basketbolista.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/intersedes",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Deportista.cpp.o -c /workspaces/PrimProv/intersedes/src/Deportista.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Deportista.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/intersedes",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Futbolista.cpp.o -c /workspaces/PrimProv/intersedes/src/Futbolista.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Futbolista.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/intersedes",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/intersedes/include  -g   -o CMakeFiles/intersedes.dir/src/Nadador.cpp.o -c /workspaces/PrimProv/intersedes/src/Nadador.cpp",
+  "file": "/workspaces/PrimProv/intersedes/src/Nadador.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/punteros",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/punteros/include  -g   -o CMakeFiles/punteros.dir/main.cpp.o -c /workspaces/PrimProv/punteros/main.cpp",
+  "file": "/workspaces/PrimProv/punteros/main.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/punteros",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/punteros/include  -g   -o CMakeFiles/punteros.dir/src/Cuenta.cpp.o -c /workspaces/PrimProv/punteros/src/Cuenta.cpp",
+  "file": "/workspaces/PrimProv/punteros/src/Cuenta.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/punteros",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/punteros/include  -g   -o CMakeFiles/punteros.dir/src/Persona.cpp.o -c /workspaces/PrimProv/punteros/src/Persona.cpp",
+  "file": "/workspaces/PrimProv/punteros/src/Persona.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/archivos51",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/archivos51/include  -g   -o CMakeFiles/archivos51.dir/main.cpp.o -c /workspaces/PrimProv/archivos51/main.cpp",
+  "file": "/workspaces/PrimProv/archivos51/main.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/build/archivos51",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/archivos51/include  -g   -o CMakeFiles/archivos51.dir/src/Estudiante.cpp.o -c /workspaces/PrimProv/archivos51/src/Estudiante.cpp",
+  "file": "/workspaces/PrimProv/archivos51/src/Estudiante.cpp"
+}
+]
