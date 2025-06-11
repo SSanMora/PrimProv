@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/parcial2.dir/main.cpp.o CMakeFiles/parcial2.dir/src/EnanoGuerrero.cpp.o CMakeFiles/parcial2.dir/src/RunaFuego.cpp.o CMakeFiles/parcial2.dir/src/RunaPiedra.cpp.o  -o parcial2 

@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/workspaces/PrimProv/parcial2/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/parcial2/include  -g   -o CMakeFiles/parcial2.dir/main.cpp.o -c /workspaces/PrimProv/parcial2/main.cpp",
+  "file": "/workspaces/PrimProv/parcial2/main.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/parcial2/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/parcial2/include  -g   -o CMakeFiles/parcial2.dir/src/EnanoGuerrero.cpp.o -c /workspaces/PrimProv/parcial2/src/EnanoGuerrero.cpp",
+  "file": "/workspaces/PrimProv/parcial2/src/EnanoGuerrero.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/parcial2/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/parcial2/include  -g   -o CMakeFiles/parcial2.dir/src/RunaFuego.cpp.o -c /workspaces/PrimProv/parcial2/src/RunaFuego.cpp",
+  "file": "/workspaces/PrimProv/parcial2/src/RunaFuego.cpp"
+},
+{
+  "directory": "/workspaces/PrimProv/parcial2/build",
+  "command": "/usr/bin/g++   -I/workspaces/PrimProv/parcial2/include  -g   -o CMakeFiles/parcial2.dir/src/RunaPiedra.cpp.o -c /workspaces/PrimProv/parcial2/src/RunaPiedra.cpp",
+  "file": "/workspaces/PrimProv/parcial2/src/RunaPiedra.cpp"
+}
+]
