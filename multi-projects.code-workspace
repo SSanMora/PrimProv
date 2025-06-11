@@ -2,8 +2,6 @@
     "folders": [
       { "name": "Intersedes",   "path": "intersedes" },
       // {por cada proyecto}
-      { "name": "Punteros",   "path": "punteros" },
-      // {por cada proyecto}
       { "name": "Archivos51",   "path": "archivos51" },
       // {por cada proyecto}
       { "name": "Educaplus",   "path": "educaplus" }

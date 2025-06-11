@@ -31,8 +31,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "../educaplus/CMakeLists.txt"
   "../intersedes/CMakeLists.txt"
-  "../punteros/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,13 +45,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "intersedes/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "punteros/CMakeFiles/CMakeDirectoryInformation.cmake"
   "archivos51/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "educaplus/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "intersedes/CMakeFiles/intersedes.dir/DependInfo.cmake"
-  "punteros/CMakeFiles/punteros.dir/DependInfo.cmake"
   "archivos51/CMakeFiles/archivos51.dir/DependInfo.cmake"
   )

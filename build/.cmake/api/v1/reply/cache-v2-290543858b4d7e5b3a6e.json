@@ -1170,6 +1170,30 @@
 			"value" : "/workspaces/PrimProv/archivos51"
 		},
 		{
+			"name" : "educaplus_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/workspaces/PrimProv/build/educaplus"
+		},
+		{
+			"name" : "educaplus_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/workspaces/PrimProv/educaplus"
+		},
+		{
 			"name" : "intersedes_BINARY_DIR",
 			"properties" : 
 			[

@@ -130,13 +130,22 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "intersedes/CMakeLists.txt"
+		},
+		{
+			"path" : "archivos51/CMakeLists.txt"
+		},
+		{
+			"path" : "educaplus/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/workspaces/PrimProv/punteros/build",
-		"source" : "/workspaces/PrimProv/punteros"
+		"build" : "/workspaces/PrimProv/build",
+		"source" : "/workspaces/PrimProv"
 	},
 	"version" : 
 	{

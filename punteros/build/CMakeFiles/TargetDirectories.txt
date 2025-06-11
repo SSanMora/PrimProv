@@ -1,3 +1,0 @@
-/workspaces/PrimProv/punteros/build/CMakeFiles/rebuild_cache.dir
-/workspaces/PrimProv/punteros/build/CMakeFiles/edit_cache.dir
-/workspaces/PrimProv/punteros/build/CMakeFiles/punteros.dir

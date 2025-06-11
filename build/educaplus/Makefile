@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/PrimProv/build/CMakeFiles /workspaces/PrimProv/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /workspaces/PrimProv/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/PrimProv/build/CMakeFiles /workspaces/PrimProv/build/educaplus/CMakeFiles/progress.marks
+	cd /workspaces/PrimProv/build && $(MAKE) -f CMakeFiles/Makefile2 educaplus/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/PrimProv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /workspaces/PrimProv/build && $(MAKE) -f CMakeFiles/Makefile2 educaplus/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,44 +97,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /workspaces/PrimProv/build && $(MAKE) -f CMakeFiles/Makefile2 educaplus/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /workspaces/PrimProv/build && $(MAKE) -f CMakeFiles/Makefile2 educaplus/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/PrimProv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named intersedes
-
-# Build rule for target.
-intersedes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 intersedes
-.PHONY : intersedes
-
-# fast build rule for target.
-intersedes/fast:
-	$(MAKE) -f intersedes/CMakeFiles/intersedes.dir/build.make intersedes/CMakeFiles/intersedes.dir/build
-.PHONY : intersedes/fast
-
-#=============================================================================
-# Target rules for targets named archivos51
-
-# Build rule for target.
-archivos51: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 archivos51
-.PHONY : archivos51
-
-# fast build rule for target.
-archivos51/fast:
-	$(MAKE) -f archivos51/CMakeFiles/archivos51.dir/build.make archivos51/CMakeFiles/archivos51.dir/build
-.PHONY : archivos51/fast
 
 # Help Target
 help:
@@ -144,8 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... intersedes"
-	@echo "... archivos51"
 .PHONY : help
 
 
@@ -157,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/PrimProv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
