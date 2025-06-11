@@ -1,33 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
-      {
-        "name": "Debug Intersedes",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${workspaceFolder}/build/bin/intersedes",
-        "args": [],
-        "cwd": "${workspaceFolder}",
-        "console": "integratedTerminal",
-        "MIMode": "gdb",
-        "miDebuggerPath": "/usr/bin/gdb",
-        "preLaunchTask": "Build Intersedes",
-      },
       // por cada proyecto/carpeta
-
-      {
-        "name": "Debug Archivos51",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${workspaceFolder}/build/bin/punteros",
-        "args": [],
-        "cwd": "${workspaceFolder}",
-        "console": "integratedTerminal",
-        "MIMode": "gdb",
-        "miDebuggerPath": "/usr/bin/gdb",
-        "preLaunchTask": "Build Archivos51",
-      },
-
       {
         "name": "Debug Educaplus",
         "type": "cppdbg",
@@ -39,6 +13,19 @@
         "MIMode": "gdb",
         "miDebuggerPath": "/usr/bin/gdb",
         "preLaunchTask": "Build Educaplus",
+      },
+      // por cada proyecto/carpeta
+      {
+        "name": "Debug Parcial2",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/bin/punteros",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+        "preLaunchTask": "Build Parcial2",
       }
     ]
   }

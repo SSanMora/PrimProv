@@ -1,10 +1,8 @@
 {
     "folders": [
-      { "name": "Intersedes",   "path": "intersedes" },
+      { "name": "Educaplus",   "path": "educaplus" },
       // {por cada proyecto}
-      { "name": "Archivos51",   "path": "archivos51" },
-      // {por cada proyecto}
-      { "name": "Educaplus",   "path": "educaplus" }
+      { "name": "Parcial2",   "path": "parcial2" }
       // {por cada proyecto}
     ],
     "settings": {

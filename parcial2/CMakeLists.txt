@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(archivos51)
+project(parcial2)
 
 # 1. Recolecta todos los .cpp (incluyendo main.cpp)
 file(GLOB SRC_FILES
@@ -8,10 +8,10 @@ file(GLOB SRC_FILES
 )
 
 # 2. Declara el ejecutable
-add_executable(archivos51 ${SRC_FILES})
+add_executable(parcial2 ${SRC_FILES})
 
 # 3. Indícale dónde están los headers
-target_include_directories(archivos51
+target_include_directories(parcial2
   PRIVATE
     "${CMAKE_CURRENT_SOURCE_DIR}/include"
 )
